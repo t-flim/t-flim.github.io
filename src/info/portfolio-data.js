@@ -7,7 +7,7 @@ const hero = {
 
 const projects = []
 
-const techStack = [
+const techStacks = [
     {id: 1, name: "html", url: "html5-plain"},
     {id: 2, name: "css", url: "css3-plain"},
     {id: 3, name: "bootstrap", url: "bootstrap-plain"},
