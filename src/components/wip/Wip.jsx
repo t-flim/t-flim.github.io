@@ -1,8 +1,11 @@
 import "./Wip.css"
 
 function Wip() {
-    <div>
-    </div>
+
+    return (
+        <div className="wip">
+        </div>
+    )
 }
 
 export default Wip
