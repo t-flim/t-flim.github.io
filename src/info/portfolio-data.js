@@ -1,6 +1,7 @@
 const hero = {
     firstName: "Fu Lim",
     lastName: "Tey",
+    title: "web developer",
     location: "Kuala Lumpur",
 }
 
