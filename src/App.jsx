@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css"
+
+// components
+import Wip from "./components/wip/Wip"
 
 function App() {
 
   return (
-    <div className="app">
-      <h1>Let's Break Stuff</h1>
-    </div>
+    <Wip />
   )
 }
 
