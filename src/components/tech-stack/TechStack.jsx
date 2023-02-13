@@ -1,10 +1,12 @@
 import "./TechStack.css"
 
-function TechStack() {
+function TechStacks() {
+
 
     return(
-        <section id="tech-stack"></section>
+        <section id="tech-stacks">
+        </section>
     )
 }
 
-export default TechStack
+export default TechStacks
