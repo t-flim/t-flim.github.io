@@ -1,12 +1,11 @@
 import "./App.css"
 
 // components
-import Wip from "./components/wip/Wip"
 
 function App() {
 
   return (
-    <Wip />
+    <div className="app"></div>
   )
 }
 
