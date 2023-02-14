@@ -1,0 +1,19 @@
+#tech-stacks {
+    font-size: clamp(2.5rem, 10vh, 4.5rem);
+}
+
+#tech-stacks > .container {
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.stack-icon {
+    transition: all 0.5s ease;
+}
+
+.stack-icon:hover,
+.stack-icon:focus {
+    transform: scale(1.5);
+    opacity: 0.75;
+}
