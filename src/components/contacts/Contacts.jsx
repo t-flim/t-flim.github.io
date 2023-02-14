@@ -5,7 +5,7 @@ function Contacts() {
 
     return(
         <section id="contacts">
-            <div class="container">
+            <div className="container">
                 {contactMethods.map(contactMethod => {
                     return(
                         <p key={contactMethod.id}>{contactMethod.url}</p>

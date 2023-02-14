@@ -6,7 +6,7 @@ function TechStacks() {
 
     return(
         <section id="tech-stacks">
-            <div class="container">
+            <div className="container">
                 {techStacks.map(techStack => {
                     return(
                 

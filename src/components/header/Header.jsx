@@ -6,7 +6,7 @@ function Header() {
     
     return(
         <header id="hero">
-            <div class="container">
+            <div className="container">
                 <div className="hero-name">
                     <h1>{firstName} {lastName}</h1>
                     <h4>{title}</h4>
