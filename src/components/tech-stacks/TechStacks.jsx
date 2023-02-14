@@ -1,10 +1,18 @@
-import "./TechStack.css"
+import "./TechStacks.css"
+import {techStacks} from "../../info/portfolio-data"
 
 function TechStacks() {
 
 
     return(
         <section id="tech-stacks">
+            {techStacks.map(techStack => {
+                return(
+                    
+            <i key={techStack.id} class={`devicon-${techStack.url}`}></i>
+          
+                )
+            })}
         </section>
     )
 }
