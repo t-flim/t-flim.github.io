@@ -27,4 +27,4 @@ const contactMethods = [
 
 
 
-export {hero, projects, techStack, contactMethods}
+export {hero, projects, techStacks, contactMethods}
