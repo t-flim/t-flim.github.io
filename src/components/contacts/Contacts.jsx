@@ -7,7 +7,7 @@ function Contacts() {
         <section id="contacts">
             {contactMethods.map(contactMethod => {
                 return(
-                    <p>{contactMethod.url}</p>
+                    <p key={contactMethod.id}>{contactMethod.url}</p>
                 )
             })}
         </section>

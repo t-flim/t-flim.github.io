@@ -9,7 +9,7 @@ function TechStacks() {
             {techStacks.map(techStack => {
                 return(
                     
-            <i key={techStack.id} class={`devicon-${techStack.url}`}></i>
+            <i key={techStack.id} className={`devicon-${techStack.url}`}></i>
           
                 )
             })}
