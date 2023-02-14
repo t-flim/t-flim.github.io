@@ -5,9 +5,11 @@ function Footer() {
 
     return(
         <footer id="footer">
-            <p>
-                &copy; {currentYear}
-            </p>
+            <div class="container">
+                <p>
+                    &copy; {currentYear}
+                </p>
+            </div>
         </footer>
     )
 }

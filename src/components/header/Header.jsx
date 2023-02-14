@@ -6,11 +6,13 @@ function Header() {
     
     return(
         <header id="hero">
-            <div className="hero-name">
-                <h1>{firstName} {lastName}</h1>
-                <h4>{title}</h4>
+            <div class="container">
+                <div className="hero-name">
+                    <h1>{firstName} {lastName}</h1>
+                    <h4>{title}</h4>
+                </div>
+                <p>{location}</p>
             </div>
-            <p>{location}</p>
         </header>
     )
 }

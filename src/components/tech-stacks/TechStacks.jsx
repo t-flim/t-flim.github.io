@@ -6,13 +6,14 @@ function TechStacks() {
 
     return(
         <section id="tech-stacks">
-            {techStacks.map(techStack => {
-                return(
-                    
-            <i key={techStack.id} className={`devicon-${techStack.url}`}></i>
-          
-                )
-            })}
+            <div class="container">
+                {techStacks.map(techStack => {
+                    return(
+                
+                <i key={techStack.id} className={`devicon-${techStack.url}`}></i>
+                    )
+                })}
+            </div>
         </section>
     )
 }

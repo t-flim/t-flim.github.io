@@ -5,11 +5,13 @@ function Contacts() {
 
     return(
         <section id="contacts">
-            {contactMethods.map(contactMethod => {
-                return(
-                    <p key={contactMethod.id}>{contactMethod.url}</p>
-                )
-            })}
+            <div class="container">
+                {contactMethods.map(contactMethod => {
+                    return(
+                        <p key={contactMethod.id}>{contactMethod.url}</p>
+                    )
+                })}
+            </div>
         </section>
     )
 }

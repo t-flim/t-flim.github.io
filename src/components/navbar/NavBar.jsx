@@ -5,7 +5,7 @@ function NavBar() {
 
     return(
         <nav id="nav">
-            <ul className="nav__list row">
+            <ul className="nav__list row container">
                 <li className="nav__list--item">
                     <a className="nav__list--link" href="#hero">Home</a>
                 </li>
