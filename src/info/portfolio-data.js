@@ -16,7 +16,7 @@ const techStacks = [
     {id: 6, name: "reactjs", url: "react-original"},
     {id: 7, name: "nodejs", url: "nodejs-plain"},
     {id: 8, name: "expressjs", url: "express-original"},
-    {id: 9, name: "mongodb", url: "mongdb-plain"},
+    {id: 9, name: "mongodb", url: "mongodb-plain"},
     {id: 10, name: "git",  url: "git-plain"},
 ]
 
