@@ -7,12 +7,14 @@ function TechStacks() {
     return(
         <section id="tech-stacks">
             <div className="container">
-                {techStacks.map(techStack => {
-                    return(
-                
-                <i key={techStack.id} className={`devicon-${techStack.url}`}></i>
-                    )
-                })}
+                <div className="inner-container">
+                    {techStacks.map(techStack => {
+                        return(
+                    
+                    <i key={techStack.id} className={`devicon-${techStack.url}`}></i>
+                        )
+                    })}
+                </div>
             </div>
         </section>
     )
