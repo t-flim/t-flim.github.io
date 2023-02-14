@@ -7,7 +7,7 @@ function NavBar() {
         <nav id="nav">
             <ul className="nav__list row container">
                 <li className="nav__list--item">
-                    <a className="nav__list--link" href="#hero">Home</a>
+                    <a className="nav__list--link" href="#header">Home</a>
                 </li>
                 {(projects.length > 0) && <li className="nav__list--item">
                     <a className="nav__list--link" href="#projects">Projects</a>
