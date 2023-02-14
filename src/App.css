@@ -22,7 +22,12 @@ body {
   font-size: 1.3rem;
 }
 
-.app {
+.container {
   margin: 0 auto;
   width: min(80%, 1200px);
+}
+
+.row {
+  display: flex;
+  align-items: center;
 }
