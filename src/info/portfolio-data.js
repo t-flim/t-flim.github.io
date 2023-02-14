@@ -18,6 +18,7 @@ const techStacks = [
     {id: 8, name: "expressjs", url: "express-original"},
     {id: 9, name: "mongodb", url: "mongodb-plain"},
     {id: 10, name: "git",  url: "git-plain"},
+    {id: 11, name: "markdown", url: "markdown-original"}
 ]
 
 const contactMethods = [
