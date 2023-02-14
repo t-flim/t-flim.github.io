@@ -1,5 +1,6 @@
 .nav__list {
     list-style: none;
+    gap: 1em;
 }
 
 .nav__list--link {
@@ -7,5 +8,8 @@
 }
 
 #nav {
+    position: fixed;
     width: 100%;
+    top: 0;
+    padding: 1em 0.75em;
 }
