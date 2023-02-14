@@ -5,18 +5,18 @@ function NavBar() {
 
     return(
         <nav id="nav">
-            <ul className="nav__list">
+            <ul className="nav__list row">
                 <li className="nav__list--item">
-                    <a href="#hero">Home</a>
+                    <a className="nav__list--link" href="#hero">Home</a>
                 </li>
                 {(projects.length > 0) && <li className="nav__list--item">
-                    <a href="#projects">Projects</a>
+                    <a className="nav__list--link" href="#projects">Projects</a>
                 </li>}
                 {(techStacks.length > 0) && <li className="nav__list--item">
-                    <a href="#tech-stacks">Tech Stack</a>
+                    <a className="nav__list--link" href="#tech-stacks">Tech Stack</a>
                 </li>}
                 {(contactMethods.length > 0) && <li className="nav__list--item">
-                    <a href="#contacts">Contact</a>
+                    <a className="nav__list--link" href="#contacts">Contact</a>
                 </li>}
             </ul>
         </nav>
