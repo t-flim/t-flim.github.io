@@ -22,8 +22,8 @@ const technologies = [
 ]
 
 const contactMethods = [
-    {id: 1, method: "email", url: "fulim1988@gmail.com"},
-    {id: 2, method: "github", url: "https://github.com/t-flim"},
+    {id: 1, method: "email", class: "fa-solid fa-envelope", url: "fulim1988@gmail.com"},
+    {id: 2, method: "github", class: "fa-brands fa-github", url: "https://github.com/t-flim"},
 ]
 
 const api = [
