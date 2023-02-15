@@ -1,11 +1,14 @@
 import "./NavBar.css"
 import {projects, technologies, contactMethods} from "../../info/portfolio-data"
 
-function NavBar() {
+function NavBar(props) {
+    const handleClick = (e) => {
+        props.handleClick(e.target.name)
+    }
 
     return(
         <nav id="nav">
-            <ul className="nav__list row container">
+            <ul className="nav__list row container" onClick={(e) => handleClick(e)}>
                 <li className="nav__list--item">
                     <a className="nav__list--link" href="#" name="home">Home</a>
                 </li>
