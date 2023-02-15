@@ -26,6 +26,10 @@ const contactMethods = [
     {id: 2, method: "github", url: "https://github.com/t-flim"},
 ]
 
+const api = [
+    {id: 1, type: "programming-jokes", url: "https://backend-omega-seven.vercel.app/api/getjoke"}
+]
 
 
-export {hero, projects, techStacks, contactMethods}
+
+export {hero, projects, techStacks, contactMethods, api}
