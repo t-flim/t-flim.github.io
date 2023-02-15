@@ -1,5 +1,5 @@
 import "./NavBar.css"
-import {projects, techStacks, contactMethods} from "../../info/portfolio-data"
+import {projects, technologies, contactMethods} from "../../info/portfolio-data"
 
 function NavBar() {
 
@@ -7,16 +7,16 @@ function NavBar() {
         <nav id="nav">
             <ul className="nav__list row container">
                 <li className="nav__list--item">
-                    <a className="nav__list--link" href="#header">Home</a>
+                    <a className="nav__list--link" href="#" name="home">Home</a>
                 </li>
                 {(projects.length > 0) && <li className="nav__list--item">
-                    <a className="nav__list--link" href="#projects">Projects</a>
+                    <a className="nav__list--link" href="#projects" name="projects">Projects</a>
                 </li>}
-                {(techStacks.length > 0) && <li className="nav__list--item">
-                    <a className="nav__list--link" href="#tech-stacks">Tech Stack</a>
+                {(technologies.length > 0) && <li className="nav__list--item">
+                    <a className="nav__list--link" href="#technologies" name="technologies">Technologies</a>
                 </li>}
                 {(contactMethods.length > 0) && <li className="nav__list--item">
-                    <a className="nav__list--link" href="#contacts">Contact</a>
+                    <a className="nav__list--link" href="#contacts" name="contacts">Contact</a>
                 </li>}
             </ul>
         </nav>

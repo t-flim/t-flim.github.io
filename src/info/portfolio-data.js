@@ -7,7 +7,7 @@ const hero = {
 
 const projects = []
 
-const techStacks = [
+const technologies = [
     {id: 1, name: "html", url: "html5-plain"},
     {id: 2, name: "css", url: "css3-plain"},
     {id: 3, name: "bootstrap", url: "bootstrap-plain"},
@@ -32,4 +32,4 @@ const api = [
 
 
 
-export {hero, projects, techStacks, contactMethods, api}
+export {hero, projects, technologies, contactMethods, api}
