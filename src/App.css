@@ -32,8 +32,9 @@ h6 {
 
 header,
 section {
-  margin-top: 2.5em;
+  margin-top: 2.75em;
   padding: 0 0.75em;
+  height: 85vh;
 }
 
 .container {
