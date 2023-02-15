@@ -1,11 +1,20 @@
 import "./Header.css"
+import {hero} from "../../info/portfolio-data"
 
 function Header() {
+    const {firstName, lastName, title, location} = hero
     
     return(
         <header id="header">
             <div className="container">
-                <h2 className="section-title">Header</h2>
+                <div className="hero">
+                    <h1 className="hero--name">{lastName} {firstName}</h1>
+                    <h5 className="hero--title">{title}</h5>
+                    <div className="location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p className="hero--location">{location}</p>
+                    </div>
+                </div>
             </div>
         </header>
     )
