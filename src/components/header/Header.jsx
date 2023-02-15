@@ -11,7 +11,7 @@ function Header() {
                     <h1 className="hero--name">{lastName} {firstName}</h1>
                     <h5 className="hero--title">{title}</h5>
                     <div className="location">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i className="fa-solid fa-location-dot"></i>
                         <p className="hero--location">{location}</p>
                     </div>
                 </div>
